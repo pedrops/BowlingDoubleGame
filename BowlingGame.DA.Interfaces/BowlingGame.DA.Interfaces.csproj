@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BowlingGame.BE.Interfaces\BowlingGame.BE.Interfaces.csproj" />
+    <ProjectReference Include="..\BowlingGame.BE\BowlingGame.BE.csproj" />
+    <ProjectReference Include="..\BowlingGame.DTO\BowlingGame.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

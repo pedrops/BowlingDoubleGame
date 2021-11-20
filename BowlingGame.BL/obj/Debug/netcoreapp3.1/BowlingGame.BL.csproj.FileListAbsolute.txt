@@ -1,0 +1,12 @@
+D:\Tests\BowlingGame\BowlingGame.BL\bin\Debug\netcoreapp3.1\BowlingGame.BL.deps.json
+D:\Tests\BowlingGame\BowlingGame.BL\bin\Debug\netcoreapp3.1\BowlingGame.BL.dll
+D:\Tests\BowlingGame\BowlingGame.BL\bin\Debug\netcoreapp3.1\BowlingGame.BL.pdb
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.csprojAssemblyReference.cache
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.AssemblyInfoInputs.cache
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.AssemblyInfo.cs
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.csproj.CoreCompileInputs.cache
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.dll
+D:\Tests\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.pdb
+G:\archivos\ENTROPYZERO\BowlingGame\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.dll
+G:\archivos\ENTROPYZERO\BowlingGame\BowlingGame\BowlingGame.BL\obj\Debug\netcoreapp3.1\BowlingGame.BL.pdb

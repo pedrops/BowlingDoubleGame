@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GameMongo.cs" />
+    <Compile Remove="GameSetupMongo.cs" />
+    <Compile Remove="PlayerMongo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BowlingGame.BE.Interfaces\BowlingGame.BE.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

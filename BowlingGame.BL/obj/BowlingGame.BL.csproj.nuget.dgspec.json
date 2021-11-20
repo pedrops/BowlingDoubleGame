@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BL\\BowlingGame.BL.csproj": {}
+  },
+  "projects": {
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj",
+        "projectName": "BowlingGame.BE.Interfaces",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj",
+        "projectName": "BowlingGame.BE",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BL\\BowlingGame.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BL\\BowlingGame.BL.csproj",
+        "projectName": "BowlingGame.BL",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BL\\BowlingGame.BL.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\BowlingGame.DA.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\BowlingGame.DA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj",
+        "projectName": "BowlingGame.DA.Interfaces",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE.Interfaces\\BowlingGame.BE.Interfaces.csproj"
+              },
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj"
+              },
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\BowlingGame.DA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\BowlingGame.DA.csproj",
+        "projectName": "BowlingGame.DA",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\BowlingGame.DA.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.BE\\BowlingGame.BE.csproj"
+              },
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj"
+              },
+              "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj": {
+                "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj",
+        "projectName": "BowlingGame.DTO",
+        "projectPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\BowlingGame.DTO.csproj",
+        "packagesPath": "C:\\Users\\pjmfb\\.nuget\\packages\\",
+        "outputPath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pjmfb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

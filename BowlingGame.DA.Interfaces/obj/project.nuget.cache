@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "e3iR4xpiRDWxrOndxNTryxSiF6yyR3tXvRZYXqMioGHG+sD8NPf8Po2Td3eSTBtKbMBJyrmGmKUn5kkZpCT/gA==",
+  "success": true,
+  "projectFilePath": "D:\\Tests\\BowlingDoubleGame\\BowlingGame.DA.Interfaces\\BowlingGame.DA.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pjmfb\\.nuget\\packages\\mongodb.bson\\2.13.2\\mongodb.bson.2.13.2.nupkg.sha512",
+    "C:\\Users\\pjmfb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
