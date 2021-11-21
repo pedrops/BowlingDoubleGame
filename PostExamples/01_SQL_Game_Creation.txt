@@ -1,0 +1,43 @@
+This the post call to create the SQL process creation game
+=====================================
+https://localhost:44386/api/GameSetup
+=====================================
+
+payload:
+// Include only next part:
+
+{
+   "GameSetupId":null,
+   "AvailablePins" : 10,
+   "Finished":false,
+   "DateCreated":"2021-04-16T20:38:41.062Z",
+   "DateModified":"2021-04-16T20:38:41.062Z",
+   "PlayerId" : null,
+   "Player": {
+        "PlayerId": null,
+        "NickName":"MyNick",
+        "LastName":"MyLastName",
+        "Firstname":"MyFirstName",
+        "DOB":"2021-04-16T20:38:41.062Z",
+        "DateCreated":"2021-04-16T20:38:41.062Z",
+        "DateModified":"2021-04-16T20:38:41.062Z"
+   },
+   "Games" : [
+        {
+            "GameId":1,
+            "GameSetupId":null,
+            "GameAttempt":"1",
+            "KnockedPins":"3",
+            "DateCreated":"2021-04-16T20:38:41.062Z",
+            "DateModified":"2021-04-16T20:38:41.062Z"
+        },
+        {
+            "GameId":2,
+            "GameSetupId":null,
+            "GameAttempt":"1",
+            "KnockedPins":"3",
+            "DateCreated":"2021-04-16T20:38:41.062Z",
+            "DateModified":"2021-04-16T20:38:41.062Z"
+        }
+   ]
+}

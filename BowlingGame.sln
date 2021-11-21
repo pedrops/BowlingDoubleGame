@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.DA.Interfaces",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.BE.Interfaces", "BowlingGame.BE.Interfaces\BowlingGame.BE.Interfaces.csproj", "{34E6432B-165B-4611-87C9-947631FC04F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGame.BL.Tests", "BowlingGame.BL.Tests\BowlingGame.BL.Tests.csproj", "{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{34E6432B-165B-4611-87C9-947631FC04F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E6432B-165B-4611-87C9-947631FC04F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E6432B-165B-4611-87C9-947631FC04F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{89009AAE-119C-428E-9D39-DB11AB7466DB} = {DBAF05C8-2A1F-4D22-93CE-358162B85CB4}
 		{59A1EE45-73B0-4194-981B-FDF5E3D9F817} = {DBAF05C8-2A1F-4D22-93CE-358162B85CB4}
 		{34E6432B-165B-4611-87C9-947631FC04F3} = {008AF610-2AD7-4B31-8299-6697910FC03D}
+		{11C78506-23DB-46B6-8DAF-BDAEDF1D0AF4} = {37AC2D3B-F313-4F17-AC44-4B4D1197A884}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {996B7D1E-D2ED-4BF3-A0F7-F2CECC698A97}

@@ -1,0 +1,43 @@
+This the post call to create & update the Mongo process creation game
+=====================================
+https://localhost:44386/api/GameSetup
+=====================================
+
+payload:
+// Include only next part:
+
+{
+   "GameSetupId":"1",
+   "AvailablePins" : 10,
+   "Finished":false,
+   "DateCreated":"2021-04-16T20:38:41.062Z",
+   "DateModified":"2021-04-16T20:38:41.062Z",
+   "PlayerId" : "1",
+   "Player": {
+        "PlayerId": 1,
+        "NickName":"Pablo",
+        "LastName":"MyLastName",
+        "Firstname":"MyFirstName",
+        "DOB":"2021-04-16T20:38:41.062Z",
+        "DateCreated":"2021-04-16T20:38:41.062Z",
+        "DateModified":"2021-04-16T20:38:41.062Z"
+   },
+   "Games" : [
+        {
+            "GameId":1,
+            "GameSetupId":"1",
+            "GameAttempt":"1",
+            "KnockedPins":"4",
+            "DateCreated":"2021-04-16T20:38:41.062Z",
+            "DateModified":"2021-04-16T20:38:41.062Z"
+        },
+        {
+            "GameId":2,
+            "GameSetupId":"1",
+            "GameAttempt":"1",
+            "KnockedPins":"6",
+            "DateCreated":"2021-04-16T20:38:41.062Z",
+            "DateModified":"2021-04-16T20:38:41.062Z"
+        }
+   ]
+}

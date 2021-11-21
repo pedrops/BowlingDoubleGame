@@ -13,18 +13,17 @@ namespace BowlingGame.BL.Services
         //private IGameSetupRepository GameSetupRepo { get; set; }
         private IBowlingCacheProvider CacheProvider { get; set; }
 
-        private string UserScore { get; set; }
-        private DateTime LastUpdated { get; set; }
+        public string UserScore { get; set; }
+        public DateTime LastUpdated { get; set; }
         public BowlingCache(IBowlingCacheProvider CacheProvider)
         {
             this.CacheProvider = CacheProvider;
         }
         public async Task<string> getScore(int GameSetudId, int PlayerId)
         {
-            
             if ((DateTime.Now - LastUpdated).TotalSeconds > 5)
             {
-                UserScore = await CacheProvider.getScore(GameSetudId,PlayerId);
+                UserScore = await CacheProvider.getScore(GameSetudId, PlayerId);
                 LastUpdated = DateTime.Now;
             }
             return UserScore;

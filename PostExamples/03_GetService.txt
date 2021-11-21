@@ -1,0 +1,4 @@
+This is the get call in order to retrieve the results
+
+
+httpslocalhost44386apiGameSetupScoreGameSetupId=1&PlayerId=1
